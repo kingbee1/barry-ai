@@ -1,7 +1,7 @@
 
 import './App.css';
 //import {Article, Brand, Cta, Feature, Navbar } from './components'
-import {BarryAi, Blog, Header, Features, Possibility, Footer } from './containers'
+import {WhatBarry, Blog, Header, Features, Possibility, Footer } from './containers'
 import {Cta, Brand, Navbar } from './components'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <Header />
       </div>
       <Brand />
-      <BarryAi />
+      <WhatBarry />
       <Features />
       <Possibility />
       <Cta />
