@@ -4,7 +4,7 @@ import '../WhatBarry/barry.css'
 
 const WhatBarry = () => {
   return (
-    <div className='barry__whatbarry section__margin' id="wbr">
+    <div className='barry__whatbarry section__margin' id="barry">
       <div className='barry__whatbarry-feature'>
         <Feature title = "What is Barry Ai?" text ="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."/>
       </div>

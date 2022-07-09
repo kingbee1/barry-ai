@@ -30,7 +30,6 @@ const Navbar = () => {
           <p><a href='#possibility'>Open Ai</a></p>
           <p><a href='#features'>Case Studies</a></p>
           <p><a href='#blog'>Library</a></p>
-        <Menu />
         </div>
 
       </div>
@@ -54,8 +53,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          
-          
+               
         )}
 
       </div>
