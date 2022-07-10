@@ -1,0 +1,145 @@
+.barry__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.barry__footer-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.barry__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.barry__footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.barry__footer-btn p {
+    box-sizing: border-box;
+   
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.barry__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+
+.barry__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.barry__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.barry__footer-links_logo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+
+}
+
+.barry__footer-links_logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.barry__footer-links div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.barry__footer-links div h4 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 1 rem;
+}
+
+.barry__footer-links div p {
+    font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+margin: 0.5rem 0;
+cursor: pointer;
+}
+
+.barry__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.barry__footer-copyright p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:850px) {
+    .barry__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .barry__footer-heading h1 {
+        font-size: 44px;
+        line-height: 42px;
+    }
+
+    .barry__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .barry__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .barry__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+
+}
